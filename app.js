@@ -21,7 +21,8 @@
 
     let secondsElapsed = hour * 3600 + minute * 60 + second;
     const remainingTimeInSeconds = totalTimeAvailableInSeconds - secondsElapsed;
-    const timerId = document.getElementById("timer").innerHTML = remainingTimeInSeconds;
+    document.getElementById("timer").innerHTML = remainingTimeInSeconds;
+    document.getElementById("message").innerHTML = 'seconds remaining';
 
   }
 })();

@@ -15,7 +15,17 @@ body {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  font-size: 30px;
+}
+
+.time-remaining h1 {
   font-size: 8rem;
   color: darkgreen;
+  display: inline-block;
+}
+
+.time-remaining span {
+  text-align: center;
+  display: block;
+  color: #fff;
+  font-size: 2rem;
 }
